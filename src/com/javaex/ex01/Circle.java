@@ -8,6 +8,7 @@ public class Circle extends Shape{
 		super(fillColor);
 		this.radius=radius;
 	}
+	
 
 	public void draw(){
 		System.out.println("[원]#면색:" +super.fillColor+ 
